@@ -3,3 +3,4 @@ test/
 train/
 valid/
 saved_models/
+results/
