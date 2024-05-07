@@ -15,15 +15,15 @@ view(3);            % Set view angle
 axis tight;         % Fit axis tightly to data
 
 % Set labels
-xlabel('Height');
-ylabel('Width');
-zlabel('Depth');
+xlabel('Height', 'FontSize', 14);
+ylabel('Width', 'FontSize', 14);
+zlabel('Depth', 'FontSize', 14);
 
 % Add grid
 grid on;
 
 % Title
-title('3D Visualization at 10% Confidence Threshold');
+title('3D Visualization at 10% Confidence Threshold', 'FontSize', 16);
 
 % Show plot
 
