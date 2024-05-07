@@ -35,7 +35,7 @@ stacked_masks = data.stacked_masks;
 
 % Create an isosurface plot
 fig = figure;
-iso = isosurface(stacked_masks, 0.9);
+iso = isosurface(stacked_masks, 0.1);
 
 % Set plot properties
 patch(iso, 'FaceColor', 'blue', 'EdgeColor', 'none', 'FaceAlpha', 0.5);
@@ -51,7 +51,7 @@ zlabel('Depth (mm)', 'FontSize', 14);
 grid on;
 
 % Title
-title('3D Visualization at 90% Confidence Threshold', 'FontSize', 16);
+title('3D Visualization at 10% Confidence Threshold', 'FontSize', 16);
 
 % Create a video writer object
 writerObj = VideoWriter('3D_Visualization.mp4', 'MPEG-4');
