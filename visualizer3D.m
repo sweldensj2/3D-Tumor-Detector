@@ -6,7 +6,7 @@ stacked_masks = data.stacked_masks;
 
 % Create an isosurface plot
 figure;
-iso = isosurface(stacked_masks, 0.10);
+iso = isosurface(stacked_masks, 0.90);
 
 % Set plot properties
 patch(iso, 'FaceColor', 'blue', 'EdgeColor', 'none', 'FaceAlpha', 0.5);
@@ -23,7 +23,7 @@ zlabel('Depth (mm)', 'FontSize', 14);
 grid on;
 
 % Title
-title('3D Visualization at 10% Confidence Threshold', 'FontSize', 16);
+title('3D Visualization at 90% Confidence Threshold', 'FontSize', 16);
 
 % Show plot
 
