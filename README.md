@@ -11,31 +11,20 @@
 - **Description**: Notebook starting the dataset inspection. This file loads essential packages, defines paths, inspects data samples, and processes them into correct folders for training and validation. Additionally, it displays random 2D slices from each image type and prints unique values for segmentation and image modalities.
 
 ## medical_visualization_tool.ipynb
-- **Description**: Notebook with metrics calculated correctly, visualizations for PowerPoint.
-- **Last Modified**: 10 hours ago
+- **Description**: Notebook that visualizes predictions from the model. This notebook has a variety of functions which provide the user with the ability to visualize a patients tumor prediction. It imports a model and then performs a layer by layer analysis of the respective MRI. It creates a video output of the MRI with prediction overlay, and it also can create output for the MATLAB program visualizer3D.m to proecss and visualize. 
 
 ## model_dice_iou.ipynb
-- **Description**: Notebook with metrics calculated correctly, visualizations for PowerPoint.
-- **Last Modified**: 10 hours ago
-
-## model_eval.ipynb
-- **Description**: Notebook with created 3D output and videos.
-- **Last Modified**: Yesterday
+- **Description**: Notebook calculates the performance evaluation metrics on the test data.
 
 ## seg_models.py
-- **Description**: Python script containing the UNet model implementation.
-- **Last Modified**: 2 weeks ago
-- **Update**: Added Paper's UNet and tried doing better video stuff.
+- **Description**: Python script containing the UNet model implementation I replicated, and it also contains a copy of the implemntation from the reference paper. However the copy is unused.
 
 ## training.ipynb
-- **Description**: Notebook trained for 20 epochs and updated code to get best model.
-- **Last Modified**: Yesterday
-- **Update**: Added save ...
+- **Description**: Notebook that is able to train the U-Net models. It is able to load in previous models and continue the progress while recording the losses. Additionally it saves the best model based upon the lowest validation loss. 
 
 ## visualizer3D.m
-- **Description**: MATLAB script for generating images for the report.
-- **Last Modified**: 3 hours ago
-- **Update**: Added pics for report.
+- **Description**: MATLAB script for generating 3D visualizations of a tumor. It can create a 3D model to scroll through based upon a desired confidence level. Additionally it can create a video of the same isosurface. 
+
 ## E6691.2024Spring.JWSS.report.jws2215.pdf
 - **Description**: Final Report
 - 
