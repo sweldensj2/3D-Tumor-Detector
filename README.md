@@ -2,14 +2,13 @@
 # e6691-2024Spring-project Project Files and Folders Overview
 
 ## Legacy Code
-- **Description**: Contains code from the old repository.
+- **Description**: Contains code from the old repository, mainly the display_data.ipynb which was an initiail effort. It used a smaller 3 channel RGB 2D dataset, but it demonstrated the feasiliblty of the project. 
 
 ## Results
-- **Description**: Folder containing uploaded results.
+- **Description**: Folder containing uploaded results. The folder contains videos of prediction overlays of patients 10 and 15, the output data for MATLAB to process, and it contains images of the 3D visualizations from MATLAB of both patients 10 and 15. 
 
 ## data_inspection.ipynb
-- **Description**: Notebook starting the dataset inspection.
-- **Last Modified**: 2 weeks ago
+- **Description**: Notebook starting the dataset inspection. This file loads essential packages, defines paths, inspects data samples, and processes them into correct folders for training and validation. Additionally, it displays random 2D slices from each image type and prints unique values for segmentation and image modalities.
 
 ## medical_visualization_tool.ipynb
 - **Description**: Notebook with metrics calculated correctly, visualizations for PowerPoint.
@@ -37,7 +36,9 @@
 - **Description**: MATLAB script for generating images for the report.
 - **Last Modified**: 3 hours ago
 - **Update**: Added pics for report.
-
+## E6691.2024Spring.JWSS.report.jws2215.pdf
+- **Description**: Final Report
+- 
 ## Saved Models (Google Drive)
 - **Description**: Link to saved models on Google Drive.
 - **Link**: [Saved Models](https://drive.google.com/file/d/1FuDpOWiBS80hauSfiT39cOldma9NDcLW/view?usp=drive_link)
