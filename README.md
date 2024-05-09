@@ -5,7 +5,7 @@ This project’s goal is to explore the application of semantic segmentation mod
 
 ## Datasets
 - **Description**: Contains the BraTS2020 dataset. The .gitignore prevents it from being pushed to the repo.
-- **Link**: [Saved Models](https://www.med.upenn.edu/cbica/brats2020/data.html)
+- **Link**: [Dataset](https://www.med.upenn.edu/cbica/brats2020/data.html)
 
 ## Results
 - **Description**: Folder containing uploaded results. The folder contains videos of prediction overlays of patients 10 and 15, the output data for MATLAB to process, and it contains images of the 3D visualizations from MATLAB of both patients 10 and 15. 
@@ -34,6 +34,10 @@ This project’s goal is to explore the application of semantic segmentation mod
 ## Saved Models (Google Drive)
 - **Description**: Link to saved models on Google Drive.
 - **Link**: [Saved Models](https://drive.google.com/file/d/1FuDpOWiBS80hauSfiT39cOldma9NDcLW/view?usp=drive_link)
+
+## Visualizations (Youtube)
+- **Description**: Link to visualizations on Youtube.
+- **Link**: [Youtube](https://www.youtube.com/@JohanWillemSchulzSweldens)
 
 ## Legacy Code
 - **Description**: Contains code from the old repository, mainly the display_data.ipynb which was an initiail effort. It used a smaller 3 channel RGB 2D dataset, but it demonstrated the feasiliblty of the project. 
